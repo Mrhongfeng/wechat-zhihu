@@ -1,0 +1,54 @@
+.input-div {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  background-color: #ffffff;
+  padding: 15rpx 0 15rpx 2vw;
+}
+
+.input-block {
+  float: left;
+  border: 1px #f6f6f6 solid;
+  border-radius: 16rpx;
+  height: 50rpx;
+  width: 86vw;
+  background-color: #f7f7f7;
+  color: #777777;
+  padding: 4rpx 14rpx;
+}
+
+.icon-search {
+  width: 8vw;
+  height: 58rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #f6f6f6;
+  height: auto;
+}
+
+.scroll-content {
+  margin-top: 88rpx;
+}
+
+.ask {
+  min-height: 200rpx;
+  background: #ffffff;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+}
+
+.ask-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ask-content {
+  font-size: 15px;
+}

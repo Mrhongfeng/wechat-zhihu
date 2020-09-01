@@ -1,0 +1,32 @@
+<view class="input-div">
+	<input class="input-block" value="" placeholder="请输入" placeholder-style="color:#ccc" />
+	<icon class="icon-search" type="search" />
+</view>
+<view class="container">
+	<view class="scroll-content">
+		<view class="ask">
+			<view class="ask-title">lkjhgfdsa</view>
+			<view class="ask-content">lkjhgfdsa</view>
+		</view>
+		<view class="ask">
+			<view class="ask-title">qwertyuiop</view>
+			<view class="ask-content">qwertyuiop</view>
+		</view>
+		<view class="ask">
+			<view class="ask-title">zxcvbnm</view>
+			<view class="ask-content">zxcvbnm</view>
+		</view>
+		<view class="ask">
+			<view class="ask-title">lkjhgfdsa</view>
+			<view class="ask-content">lkjhgfdsa</view>
+		</view>
+		<view class="ask">
+			<view class="ask-title">qwertyuiop</view>
+			<view class="ask-content">qwertyuiop</view>
+		</view>
+		<view class="ask">
+			<view class="ask-title">zxcvbnm</view>
+			<view class="ask-content">zxcvbnm</view>
+		</view>
+	</view>
+</view>

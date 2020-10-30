@@ -4,7 +4,7 @@
 </view>
 <view class="container">
 	<view class="scroll-content">
-		<view class="ask">
+		<view class="ask" bindtap="openDetail">
 			<view class="ask-title">lkjhgfdsa</view>
 			<view class="ask-content">lkjhgfdsa</view>
 		</view>

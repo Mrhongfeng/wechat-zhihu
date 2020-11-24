@@ -4,29 +4,9 @@
 </view>
 <view class="container">
 	<view class="scroll-content">
-		<view class="ask" bindtap="openDetail">
-			<view class="ask-title">lkjhgfdsa</view>
-			<view class="ask-content">lkjhgfdsa</view>
-		</view>
-		<view class="ask">
-			<view class="ask-title">qwertyuiop</view>
-			<view class="ask-content">qwertyuiop</view>
-		</view>
-		<view class="ask">
-			<view class="ask-title">zxcvbnm</view>
-			<view class="ask-content">zxcvbnm</view>
-		</view>
-		<view class="ask">
-			<view class="ask-title">lkjhgfdsa</view>
-			<view class="ask-content">lkjhgfdsa</view>
-		</view>
-		<view class="ask">
-			<view class="ask-title">qwertyuiop</view>
-			<view class="ask-content">qwertyuiop</view>
-		</view>
-		<view class="ask">
-			<view class="ask-title">zxcvbnm</view>
-			<view class="ask-content">zxcvbnm</view>
+		<view wx:for="{{articleList}}" wx:key="index" id="{{item.id}}" class="ask" bindtap="openDetail">
+			<view class="ask-title">{{item.title}}</view>
+			<view class="ask-content">{{item.content}}</view>
 		</view>
 	</view>
 </view>

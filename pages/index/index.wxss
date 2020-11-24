@@ -45,10 +45,24 @@
 }
 
 .ask-title {
+  /*隐藏溢出*/
+  overflow: hidden;
+  /*当文本溢出包含元素时显示省略符号来代表被修剪的文本*/
+  text-overflow: ellipsis;
+  /*规定段落中的文本不进行换行*/
+  white-space: nowrap;
+
   font-size: 20px;
   font-weight: 400;
 }
 
 .ask-content {
   font-size: 15px;
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  /*设置 需要显示的行数*/
+  -webkit-line-clamp:3;
 }

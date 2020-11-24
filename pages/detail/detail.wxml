@@ -1,8 +1,6 @@
 <view class="detail-view">
-	<view class="detail-title">奥古斯丁哈开始安徽的科技哈萨克号地块登记卡数据库的</view>
+	<view class="detail-title">{{articleInfo.title}}</view>
   <view class="detail-content">
-    时间到了发记录；时代峰峻；ls 
-    ahsdlkhasdklsahdk
-    奥斯卡回单卡生地会考拉速度快拉收到货
+    {{articleInfo.content}}
   </view>
 </view>

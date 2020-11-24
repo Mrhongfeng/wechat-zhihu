@@ -15,4 +15,5 @@
   padding: 10rpx;
   background-color: #ffffff;
   font-size: 14px;
+  white-space: pre-line;
 }
